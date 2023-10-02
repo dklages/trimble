@@ -200,6 +200,10 @@ pre {
 .red-background{
 	background-color:red;
 	color: white;
+
+}
+
+.red-background h2{
 	text-align: left;
 }
 
