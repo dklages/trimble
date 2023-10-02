@@ -199,6 +199,17 @@ pre {
 
 .red-background{
 	background-color:red;
+	color: white;
+}
+
+.red-background a.button:any-link, button {
+	color: white;
+	background-color: red;
+}
+
+.red-background a.button:hover, a.button:focus, button:hover, button:focus  {
+	background-color: white;
+	color: black;
 }
 
 /* buttons */
