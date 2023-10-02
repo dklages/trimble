@@ -200,6 +200,7 @@ pre {
 .red-background{
 	background-color:red;
 	color: white;
+	text-align: left;
 }
 
 .red-background a.button:any-link, button {
