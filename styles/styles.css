@@ -205,6 +205,10 @@ border-bottom: 1px solid #d8d8d8;
 
 }
 
+.blue-background{
+	background: linear-gradient(0.25turn,#d3e5ed, #f0ebe7);
+}
+
 .red-background{
 	background-color:red;
 	color: white;
