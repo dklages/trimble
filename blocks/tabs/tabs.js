@@ -82,10 +82,10 @@ export default function decorate($block) {
           } else {
             t.$content.classList.add('hidden');
           }
-          window.scrollTo({
-            top: offsetPosition,
-            behavior: 'smooth',
-          });
+//          window.scrollTo({
+//            top: offsetPosition,
+//            behavior: 'smooth',
+//          });
         });
       }
     });
