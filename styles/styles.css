@@ -205,6 +205,12 @@ border-bottom: 1px solid #d8d8d8;
 
 }
 
+.quote img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .blue-background{
 	background: linear-gradient(0.25turn,#d3e5ed, #f0ebe7);
 }
@@ -214,8 +220,6 @@ border-bottom: 1px solid #d8d8d8;
 	color: white;
 
 }
-
-
 
 .red-background h2{
 	text-align: left;
