@@ -1,6 +1,7 @@
 .blockquote {
-  background-color: var(--overlay-background-color);
+/*  background-color: var(--overlay-background-color);*/
   padding: 1em;
+	text-align: center;
 }
 
 .blockquote blockquote {
