@@ -1,7 +1,7 @@
 /* CSS Document */
 
 .accordion-container {
-  padding: var(--spacing-m) 0;
+  padding: 32px 0;
 }
 
 div.accordion {
@@ -10,29 +10,30 @@ div.accordion {
 
 dl.accordion {
   margin: 0 auto;
-  max-width: var(--grid-container-width);
-  border-bottom: 1px solid var(--color-gray-500);
+  max-width: 1000px;
+  border-bottom: 1px solid #909090;
 }
 
 .accordion dd {
   margin: 0;
-  padding: var(--spacing-xs);
-  font-size: var(--type-body-s-size);
-  line-height: var(--type-body-s-lh);
+  padding: 16px;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .accordion dt button {
   align-items: center;
   background: none;
-  border: 1px solid var(--color-gray-500);
+  border-radius: 0;
+  border: 1px solid #909090;
   border-width: 1px 0 0;
-  color: var(--text-color);
+  color: black;
   display: flex;
-  font-family: var(--body-font-family);
-  font-size: var(--type-heading-xs-size);
+  font-family: 'Adobe Clean', adobe-clean, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
   font-weight: 700;
-  line-height: var(--type-heading-s-lh);
-  padding: var(--spacing-s) var(--spacing-m) var(--spacing-s) var(--spacing-xs);
+  line-height: 20px;
+  padding: 24px 32px 24px 16px;
   position: relative;
   text-align: left;
   width: 100%;
@@ -40,7 +41,7 @@ dl.accordion {
 
 .accordion dt button:hover {
   cursor: pointer;
-  color: var(--color-black);
+  color: black;
 }
 
 .accordion dt .accordion-heading {
@@ -64,7 +65,7 @@ dl.accordion {
   position: absolute;
   width: 2px;
   height: 12px;
-  background: var(--color-gray-600);
+  background: #909090;
   border-radius: 2px;
   top: 0;
   right: 0;
@@ -91,7 +92,7 @@ dl.accordion {
 }
 
 .accordion dt button[aria-expanded="true"]::before {
-  background-color: var(--link-color-dark);
+  background-color: #1473E6;
 }
 
 .quiet .accordion dt button[aria-expanded="true"]::before {
@@ -109,7 +110,7 @@ dl.accordion {
 
 .accordion dt button:hover .accordion-icon::before,
 .accordion dt button:hover .accordion-icon::after {
-  background: var(--color-black);
+  background: black;
 }
 
 .accordion dt button:focus,
@@ -129,11 +130,11 @@ dl.accordion {
 }
 
 .dark dl.accordion {
-  border-bottom-color: var(--color-gray-600);
+  border-bottom-color: #686868;
 }
 
 .dark .accordion dt button {
-  border-top-color: var(--color-gray-600);
+  border-top-color: #686868;
 }
 
 .dark .accordion dt button:focus,
@@ -144,7 +145,7 @@ dl.accordion {
 
 .dark .accordion dt button:hover .accordion-icon::before,
 .dark .accordion dt button:hover .accordion-icon::after {
-  background: var(--color-gray-100);
+  background: #F8F8F8;
 }
 
 /* Editorial Variation  */
