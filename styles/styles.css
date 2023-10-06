@@ -215,21 +215,24 @@ border-bottom: 1px solid #d8d8d8;
 	background: linear-gradient(0.25turn,#d3e5ed, #f0ebe7);
 }
 
-.pwc-banner{
+.pwc{
 	background-color:#f6b603;
 }
 
-.pwc-banner a.button:any-link, button{
+.pwc a.button:any-link, button{
 	border-radius: 0;
 	padding: 10px;
 	background-color: black;
 	color: white;
 }
 
-.pwc-banner a.button:hover, a.button:focus, button:hover, button:focus  {
+.pwc a.button:hover, a.button:focus, button:hover, button:focus  {
 	background-color: red;
 	color: white;
 }
+
+
+
 
 
 .red-background{
