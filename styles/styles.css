@@ -215,19 +215,23 @@ border-bottom: 1px solid #d8d8d8;
 	background: linear-gradient(0.25turn,#d3e5ed, #f0ebe7);
 }
 
-.pwc{
-	background-color:#f6b603;
-}
-
-.pwc a.button:any-link, button{
-	border-radius: 0;
-	padding: 10px;
-	background-color: black;
+.deloitte{
+	background-color:#000000;
 	color: white;
 }
 
-.pwc a.button:hover, a.button:focus, button:hover, button:focus  {
-	background-color: red;
+.deloitte a.button:any-link, button{
+	
+	padding: 12px;
+	border: 2px solid #26890d;
+	background-color: #26890d;
+	color: white;
+}
+
+.deloitte a.button:hover, a.button:focus, button:hover, button:focus  {
+	border: 2px solid #43b02a;
+	background-color: #43b02a;
+	color: #000;
 	color: white;
 }
 
