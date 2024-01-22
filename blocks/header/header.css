@@ -8,7 +8,8 @@ header nav {
   align-items: center;
   position: fixed;
   z-index: 200;
-  background-color: var(--background-color);
+  background-color: black;
+  color: white;
   width: 100vw;
   height: var(--nav-height);
   box-sizing: border-box;
@@ -165,6 +166,7 @@ header nav[aria-expanded='true'] .nav-tools li {
     justify-content: space-between;
     height: var(--nav-height);
     padding: 16px;
+	padding-left: 50px;
   }
 
   header nav .nav-sections > ul > li.nav-drop {
