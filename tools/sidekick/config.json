@@ -1,11 +1,11 @@
-{
+/*{
   "project": "WKND",
   "plugins": [
     {
       "id": "library",
       "title": "Library",
       "environments": [ "edit" ],
-      "url": "https://main--pwc-sales-pursuit--dklages.hlx.live/tools/sidekick/library.html",
+      "url": "https://main--deloitte-sales-pursuit--dklages.hlx.live/tools/sidekick/library.html",
       "includePaths": [ "**.docx**" ]
     },
     {
@@ -18,4 +18,4 @@
       "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:800px; height: calc(100vh - 60px)"
     }
   ]
-}
+}*/
