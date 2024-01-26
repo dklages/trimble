@@ -237,12 +237,18 @@ border-bottom: 1px solid #d8d8d8;
 
 .csc{
 	max-width: 800px;
+	text-align: center;
 }
 
 .csc-icons{
-	max-height:240px;
-	max-width:100%;
-	height:auto;
+	text-align: center;
+}
+.csc-icons picture{
+    max-height: 240px;
+    max-width: 74px;
+    margin: 0 auto;
+    display: block;
+    height: auto;
 }
 
 
