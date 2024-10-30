@@ -243,6 +243,53 @@ border-bottom: 1px solid #d8d8d8;
 	text-align:center;
 }
 
+.trimble{
+	text-align:center;
+}
+
+.trimble-column h2{
+	text-align:left;
+}
+
+.trimble-column a.button:any-link, button {
+	align-items: center;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-flex;
+    font-family: Open Sans, Arial, "sans-serif";
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    line-height: 46px;
+    padding: 0 24px;
+
+    transition: #fff .2s ease-in-out, #fff .2s ease-in-out;
+    vertical-align: middle;
+
+
+
+  color: white;
+
+  background-color: #0063a3;
+
+  padding: var(--button-padding);
+  font-weight: 600;
+  font-family: var(--body-font-family);
+  display: inline-block;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: 2px solid var(--button-border-color);
+  text-align: center;
+  font-style: normal;
+  cursor: pointer;
+  margin: 16px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: var(--button-border-radius);
+
+}
+
 .csc{
 
 	width: 100%;
