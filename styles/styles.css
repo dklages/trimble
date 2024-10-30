@@ -26,8 +26,10 @@
 
   /* fonts */
 /*  --body-font-family: 'Source Sans Pro', 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;*/
-  --body-font-family: 'Adobe Clean', adobe-clean, 'Trebuchet MS', sans-serif;
-  --heading-font-family: 'Adobe Clean', adobe-clean, 'Trebuchet MS', sans-serif;
+/*  --body-font-family: 'Adobe Clean', adobe-clean, 'Trebuchet MS', sans-serif;*/
+  --body-font-family:  Open Sans,Arial,"sans-serif";
+/*  --heading-font-family: 'Adobe Clean', adobe-clean, 'Trebuchet MS', sans-serif;*/
+  --heading-font-family: Open Sans,Arial,"sans-serif";
 /*  --heading-font-family: asar, georgia, 'Times New Roman', times, serif;*/
   --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
 
@@ -57,12 +59,12 @@
 
   /* buttons */
   --button-background-color: white;
-  --button-border-radius: 16px;
-  --button-border-color:black;
-  --button-text-color: var(--text-color);
+  --button-border-radius: 4px;
+  --button-border-color:transparent;
+  --button-text-color: #0063a3;
   --button-hover-text-color: white;
   --button-hover-background-color: black;	 
-  --button-padding: 5px 14px;
+  --button-padding: 0px 24px;
 
   /* default content */
   --default-text-align: left;
@@ -98,7 +100,7 @@ main {
 h1, h2, h3,
 h4, h5, h6 {
   font-family: var(--heading-font-family);
-  font-weight: 400;
+  font-weight: 800;
   line-height: 1.25;
   margin-top: 1em;
   margin-bottom: .5em;
@@ -278,11 +280,26 @@ border-bottom: 1px solid #d8d8d8;
 /* buttons */
 
 a.button:any-link, button {
+	align-items: center;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-flex;
+    font-family: Open Sans, Arial, "sans-serif";
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    line-height: 46px;
+    padding: 0 24px;
+
+    transition: #fff .2s ease-in-out, #fff .2s ease-in-out;
+    vertical-align: middle;
+
+
+
   color: var(--button-text-color);
 
   background-color: var(--button-background-color);
-  text-transform: uppercase;
-  font-size: 14px;
+
   padding: var(--button-padding);
   font-weight: 600;
   font-family: var(--body-font-family);
@@ -298,13 +315,16 @@ a.button:any-link, button {
   overflow: hidden;
   text-overflow: ellipsis;
   border-radius: var(--button-border-radius);
-  line-height: 1.5;
+
 }
 
 a.button:hover, a.button:focus, button:hover, button:focus  {
+/*
   background-color: var(--button-hover-background-color); 
   color: var(--button-hover-text-color); 
   cursor: pointer;
+*/
+	    transition: #fff .2s ease-in-out, #fff .2s ease-in-out;
 }
 
 button:disabled, button:disabled:hover {
