@@ -9,15 +9,27 @@
 	color: black;
 }
 
+.trimble-dark .cards > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(252px, 1fr));
+    grid-gap: 16px;
+
+	color: black;
+}
+
+
 .trimble-white .cards > ul > li {
     border: none;
-    background-color: var(--background-color)
-	max-width:252px;
+    background-color: var(--background-color);
+
 }
 
 .cards > ul > li {
     border: 1px solid var(--highlight-background-color);
-    background-color: var(--background-color)
+    background-color: var(--background-color);
 	max-width:252px;
 }
 
