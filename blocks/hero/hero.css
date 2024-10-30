@@ -39,6 +39,6 @@ main .hero img {
     height: 100%;
 }
 
-.hero [data-align="center"] {
-    text-align: center;
+.hero [data-align="left"] {
+    text-align: left;
 }
