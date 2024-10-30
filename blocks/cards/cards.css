@@ -5,11 +5,14 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 16px;
+
+	color: black;
 }
 
 .cards > ul > li {
     border: 1px solid var(--highlight-background-color);
     background-color: var(--background-color)
+	max-width:252px;
 }
 
 .cards .cards-card-body {
@@ -72,4 +75,5 @@
     .cards.scroll > ul > li {
         width: calc(100%/4);
     }
+	
 }
