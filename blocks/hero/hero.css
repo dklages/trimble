@@ -11,13 +11,14 @@ main .hero-container {
 main .hero {
     position: relative;
     padding: 32px;
-    min-height: 300px;
+	padding-top:200px;
+    min-height: 600px;
     color: var(--background-color);
 }
 
 main .hero .hero-body {
-    max-width: 1200px;
-    margin-left: auto;
+    max-width: 450px;
+    margin-left: 14%;
     margin-right: auto;
     position: relative;
     z-index: 1;
@@ -41,4 +42,9 @@ main .hero img {
 
 .hero [data-align="left"] {
     text-align: left;
+	max-width:300px;
+}
+
+.hero h1{
+	text-align:left;
 }

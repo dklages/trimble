@@ -6,3 +6,4 @@ export default async function decorate(block) {
   if (bgP) bgP.remove();
   row.classList.add('hero-body');
 }
+
