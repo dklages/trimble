@@ -9,11 +9,19 @@
 	color: black;
 }
 
+.trimble-white .cards > ul > li {
+    border: none;
+    background-color: var(--background-color)
+	max-width:252px;
+}
+
 .cards > ul > li {
     border: 1px solid var(--highlight-background-color);
     background-color: var(--background-color)
 	max-width:252px;
 }
+
+
 
 .cards .cards-card-body {
     margin: 16px;
